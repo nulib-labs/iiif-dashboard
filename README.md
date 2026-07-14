@@ -48,20 +48,19 @@ The health meter counts each stored check once. The expanded CORS section presen
 | Project registry | `projects.json` | Contributor-maintained list of projects and sample endpoints; copied into the built site. |
 | Result snapshot | `dist/results.json` | Generated checker output consumed directly by the built dashboard. |
 | Registry schema | `schema/projects.schema.json` | JSON Schema used for pull-request validation. |
-| Build pipeline | `Makefile`, `scripts/optimize.sh`, `.swcrc` | Produces the static site with Elm and SWC. |
+| Build pipeline | `Makefile`, `optimize.sh`, `.swcrc` | Produces the static site with Elm and SWC. |
 | Automation | `.github/workflows/` | Validates contributions, refreshes observations, and deploys GitHub Pages. |
 
 The application has no runtime server or database. A production build consists only of HTML, CSS, JavaScript, and JSON files in `dist/`.
 
 ## Requirements
 
-- Elm 0.19.1
 - Go 1.22 or newer
-- Node.js 22 and Yarn 1
+- Node.js 24 and Yarn 1
 - GNU Make or a compatible `make`
 - Python 3 for the local static development server
 
-SWC, the Elm test runner, and the JSON Schema validator are installed through Yarn.
+Elm 0.19.1, SWC, the Elm test runner, and the JSON Schema validator are installed through Yarn.
 
 ## Development
 
@@ -105,6 +104,8 @@ The root-level `projects.json` is intended to be straightforward to find and edi
 - a human-readable `name`;
 - an HTTPS `homepage`; and
 - at least one of `manifestUrl` or `imageInfoUrl`.
+
+Projects are kept in case-insensitive alphabetical order by `name`, with `id` used to break ties. Registry validation reports entries that are out of order, and the bundled import tools sort the registry when they write it.
 
 A project may provide both API samples:
 

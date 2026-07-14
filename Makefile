@@ -4,7 +4,7 @@ ELM_SRC := src/Main.elm
 DIST_DIR := dist
 ELM_RAW := $(DIST_DIR)/dashboard.unminified.js
 ELM_OUT := $(DIST_DIR)/dashboard.js
-OPTIMIZE_SCRIPT := scripts/optimize.sh
+OPTIMIZE_SCRIPT := ./optimize.sh
 
 .PHONY: all build build-dev build-with-results check check-services clean prepare-dist serve test validate
 
@@ -25,7 +25,7 @@ build: prepare-dist
 	rm -f $(ELM_RAW)
 
 build-dev: prepare-dist
-	elm make --debug $(ELM_SRC) --output=$(ELM_OUT)
+	yarn -s elm make --debug $(ELM_SRC) --output=$(ELM_OUT)
 
 build-with-results: build
 	$(MAKE) check-services

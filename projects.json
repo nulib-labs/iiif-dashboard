@@ -2,39 +2,18 @@
   "schemaVersion": 1,
   "projects": [
     {
-      "id": "bodleian-libraries",
-      "name": "The Bodleian Libraries",
-      "homepage": "https://digital.bodleian.ox.ac.uk/",
-      "manifestUrl": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/ae9f6cca-ae5c-4149-8fe4-95e6eca1f73c.json",
-      "imageInfoUrl": "https://iiif.bodleian.ox.ac.uk/iiif/image/ecaa1a4f-13a8-4960-8b78-cf837bc10b11/info.json"
+      "id": "api-onb-ac-at",
+      "name": "Austrian National Library (ÖNB)",
+      "homepage": "https://api.onb.ac.at/",
+      "manifestUrl": "https://api.onb.ac.at/iiif/presentation/v3/manifest/13204673",
+      "imageInfoUrl": "https://api.onb.ac.at/iiif/image/v3/13204673/uk4nGb4prkEVA8S5/info.json"
     },
     {
-      "id": "cambridge-digital-library",
-      "name": "Cambridge University Digital Library",
-      "homepage": "https://cudl.lib.cam.ac.uk/",
-      "manifestUrl": "https://cudl.lib.cam.ac.uk//iiif/MS-ADD-00470-00001",
-      "imageInfoUrl": "https://images.lib.cam.ac.uk/iiif/MS-ADD-00470-00001-000-00004.jp2/info.json"
-    },
-    {
-      "id": "ecodices",
-      "name": "e-codices",
-      "homepage": "https://e-codices.unifr.ch/",
-      "manifestUrl": "https://www.e-codices.unifr.ch/metadata/iiif/csg-0390/manifest.json",
-      "imageInfoUrl": "https://www.e-codices.unifr.ch/loris/csg/csg-0390/csg-0390_001.jp2/info.json"
-    },
-    {
-      "id": "fragmentarium",
-      "name": "Fragmentarium",
-      "homepage": "https://fragmentarium.ms/",
-      "manifestUrl": "https://fragmentarium.ms/metadata/iiif/F-3pfu/manifest.json",
-      "imageInfoUrl": "https://fragmentarium.ms/loris/F-zsh7/StAL_B_231_Bd_2470_IIv_Ir_oben.jp2/info.json"
-    },
-    {
-      "id": "api-bl-uk",
-      "name": "The British Library (Digirati)",
-      "homepage": "https://api.bl.uk/",
-      "manifestUrl": "https://bl.digirati.io/iiif/ark:/81055/vdc_100109683288.0x000001",
-      "imageInfoUrl": "https://bl.digirati.io/thumbs/v3/ark:/81055/vdc_100109683290.0x000002/info.json"
+      "id": "digital-blb-karlsruhe-de",
+      "name": "Badische Landesbibliothek Karlsruhe",
+      "homepage": "https://digital.blb-karlsruhe.de/",
+      "manifestUrl": "https://digital.blb-karlsruhe.de/i3f/v20/5554650/manifest",
+      "imageInfoUrl": "https://digital.blb-karlsruhe.de/i3f/v20/5560453/info.json"
     },
     {
       "id": "api-digitale-sammlungen-de",
@@ -44,20 +23,6 @@
       "imageInfoUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00085097_00063/info.json"
     },
     {
-      "id": "api-onb-ac-at",
-      "name": "Austrian National Library (ÖNB)",
-      "homepage": "https://api.onb.ac.at/",
-      "manifestUrl": "https://api.onb.ac.at/iiif/presentation/v3/manifest/13204673",
-      "imageInfoUrl": "https://api.onb.ac.at/iiif/image/v3/13204673/uk4nGb4prkEVA8S5/info.json"
-    },
-    {
-      "id": "collections-thulb-uni-jena-de",
-      "name": "Universitaet Jena",
-      "homepage": "https://collections.thulb.uni-jena.de/",
-      "manifestUrl": "https://collections.thulb.uni-jena.de/api/iiif/presentation/v2/HisBest_derivate_00030599/manifest",
-      "imageInfoUrl": "https://collections.thulb.uni-jena.de/api/iiif/image/v2/HisBest_derivate_00030599%2FMS_Conc_Acad_2_0001.tif/info.json"
-    },
-    {
       "id": "content-staatsbibliothek-berlin-de",
       "name": "Berlin State Library (SBB)",
       "homepage": "https://content.staatsbibliothek-berlin.de/",
@@ -65,18 +30,31 @@
       "imageInfoUrl": "https://content.staatsbibliothek-berlin.de/dc/1912185334-0009/info.json"
     },
     {
-      "id": "digibib-mozarteum-at",
-      "name": "Mozarteum",
-      "homepage": "https://digibib.mozarteum.at/",
-      "manifestUrl": "https://digibib.mozarteum.at/i3f/v20/2296663/manifest",
-      "imageInfoUrl": "https://digibib.mozarteum.at/i3f/v20/2536006/info.json"
+      "id": "library-bc-edu",
+      "name": "Boston College Libraries",
+      "homepage": "https://library.bc.edu/",
+      "manifestUrl": "https://library.bc.edu/iiif/manifests/MS1996_097_87233.json",
+      "imageInfoUrl": "https://iiif.bc.edu/iiif/2/MS1996_097_87233_0145.jp2/info.json"
     },
     {
-      "id": "digital-blb-karlsruhe-de",
-      "name": "Badische Landesbibliothek Karlsruhe",
-      "homepage": "https://digital.blb-karlsruhe.de/",
-      "manifestUrl": "https://digital.blb-karlsruhe.de/i3f/v20/5554650/manifest",
-      "imageInfoUrl": "https://digital.blb-karlsruhe.de/i3f/v20/5560453/info.json"
+      "id": "brown-university",
+      "name": "Brown University Library",
+      "homepage": "https://lib.brown.edu",
+      "manifestUrl": "https://repository.library.brown.edu/iiif/presentation/bdr:425417/manifest.json",
+      "imageInfoUrl": "https://repository.library.brown.edu/iiif/image/bdr:925232/info.json"
+    },
+    {
+      "id": "cambridge-digital-library",
+      "name": "Cambridge University Digital Library",
+      "homepage": "https://cudl.lib.cam.ac.uk/",
+      "manifestUrl": "https://cudl.lib.cam.ac.uk//iiif/MS-ADD-00470-00001",
+      "imageInfoUrl": "https://images.lib.cam.ac.uk/iiif/MS-ADD-00470-00001-000-00004.jp2/info.json"
+    },
+    {
+      "id": "digital-library-villanova-edu",
+      "name": "Digital Library @ Villanova University",
+      "homepage": "https://digital.library.villanova.edu/",
+      "manifestUrl": "https://digital.library.villanova.edu/Item/vudl:428064/Manifest"
     },
     {
       "id": "digital-obvsg-at",
@@ -100,11 +78,39 @@
       "imageInfoUrl": "https://digitale-sammlungen.ulb.uni-bonn.de/i3f/v20/8235064/info.json"
     },
     {
+      "id": "digivatlib-it",
+      "name": "DigiVatLib Vatican Library",
+      "homepage": "https://digi.vatlib.it/",
+      "manifestUrl": "https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json",
+      "imageInfoUrl": "https://digi.vatlib.it/iiifimage/MSS_Vat.lat.3225/Vat.lat.3225_0001_cr_0002r.%5B02.fn.0000%5D.jp2/info.json"
+    },
+    {
+      "id": "iiif-durham-ac-uk",
+      "name": "Durham University IIIF Collections",
+      "homepage": "https://iiif.durham.ac.uk/",
+      "manifestUrl": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mh/t2/t2mht24wj809/manifest",
+      "imageInfoUrl": "https://iiif.durham.ac.uk/iiif/trifle/32150/t2/mh/t2/t2mht24wj809/ba52d998fd922600ac0372a79b51dae7.jp2/info.json"
+    },
+    {
+      "id": "ecodices",
+      "name": "e-codices",
+      "homepage": "https://e-codices.unifr.ch/",
+      "manifestUrl": "https://www.e-codices.unifr.ch/metadata/iiif/csg-0390/manifest.json",
+      "imageInfoUrl": "https://www.e-codices.unifr.ch/loris/csg/csg-0390/csg-0390_001.jp2/info.json"
+    },
+    {
       "id": "figgy-princeton-edu",
       "name": "figgy.princeton.edu",
       "homepage": "https://figgy.princeton.edu/",
       "manifestUrl": "https://figgy.princeton.edu/concern/scanned_resources/d1fa35f6-38f1-4c1e-b33c-813fcb9cb255/manifest",
       "imageInfoUrl": "https://iiif-cloud.princeton.edu/iiif/2/5a/36/8e/5a368e038c124446a3647ea2b74cbd4a/intermediate_file/info.json"
+    },
+    {
+      "id": "fragmentarium",
+      "name": "Fragmentarium",
+      "homepage": "https://fragmentarium.ms/",
+      "manifestUrl": "https://fragmentarium.ms/metadata/iiif/F-3pfu/manifest.json",
+      "imageInfoUrl": "https://fragmentarium.ms/loris/F-zsh7/StAL_B_231_Bd_2470_IIv_Ir_oben.jp2/info.json"
     },
     {
       "id": "gallica-bnf-fr",
@@ -114,18 +120,25 @@
       "imageInfoUrl": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52524698x/f3/info.json"
     },
     {
-      "id": "iiif-archive-org",
-      "name": "iiif.archive.org",
-      "homepage": "https://iiif.archive.org/",
-      "manifestUrl": "https://iiif.archive.org/iiif/3-caja-g-9-622/manifest.json",
-      "imageInfoUrl": "https://iiif.archive.org/image/iiif/3/3-caja-g-9-622%2F(12)%20Caja%20G9-622.JPG/info.json"
-    },
-    {
       "id": "iiif-lib-harvard-edu",
       "name": "Harvard University",
       "homepage": "https://iiif.lib.harvard.edu/",
       "manifestUrl": "https://nrs.lib.harvard.edu/URN-3:FHCL.LOEB:13885556:MANIFEST:2",
       "imageInfoUrl": "https://mps.lib.harvard.edu/assets/images/drs:50230075/info.json"
+    },
+    {
+      "id": "iiif-hab-de",
+      "name": "Herzog August Bibliothek - The Polonsky Foundation Oxford-Wolfenbüttel German Manuscripts Digitization Project (2018-20…",
+      "homepage": "https://iiif.hab.de/",
+      "manifestUrl": "https://iiif.hab.de/object/varia_karten_k-16-3/manifest.json",
+      "imageInfoUrl": "https://iiif.hab.de/object/varia_karten_k-16-3/image/image_k-16-3/info.json"
+    },
+    {
+      "id": "iiif-archive-org",
+      "name": "iiif.archive.org",
+      "homepage": "https://iiif.archive.org/",
+      "manifestUrl": "https://iiif.archive.org/iiif/3-caja-g-9-622/manifest.json",
+      "imageInfoUrl": "https://iiif.archive.org/image/iiif/3/3-caja-g-9-622%2F(12)%20Caja%20G9-622.JPG/info.json"
     },
     {
       "id": "iiif-rism-digital",
@@ -135,13 +148,6 @@
       "imageInfoUrl": "https://iiif.rism.digital/image/ch/400014417/pyr_00000400014417-0001.tif/info.json"
     },
     {
-      "id": "iiif-slub-dresden-de",
-      "name": "SLUB Dresden",
-      "homepage": "https://iiif.slub-dresden.de/",
-      "manifestUrl": "https://iiif.slub-dresden.de/iiif/2/383789257/manifest.json",
-      "imageInfoUrl": "https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2Fmozaidom_383789257%2Fmozaidom_383789257_tif%2Fjpegs%2F00000003.tif.medium.jpg/info.json"
-    },
-    {
       "id": "jmms-iccu-sbn-it",
       "name": "jmms.iccu.sbn.it",
       "homepage": "https://jmms.iccu.sbn.it/",
@@ -149,17 +155,38 @@
       "imageInfoUrl": "https://jmms.iccu.sbn.it/iiif/2/tdi@normal@VFdGblZHVmpZU0F0SUVsRFExVV8_@YW5hMDQ4OTAzNF8wMDAzLXZsY19mYXNjXzJhZDlhZWRlZTEzZWNiYTBmN2FjMjBkMzVhYmVhOWM3XzZhNTFiMjY3MTljMzQyNjZlZGU4ODIyZDJiZThjYTAy@YW5hMDQ4OTAzNF8wMDAzLXZsY19mYXNjXzJhZDlhZWRlZTEzZWNiYTBmN2FjMjBkMzVhYmVhOWM3XzZhNTFiMjY3MTljMzQyNjZlZGU4ODIyZDJiZThjYTAy/info.json"
     },
     {
-      "id": "library-bc-edu",
-      "name": "Boston College Libraries",
-      "homepage": "https://library.bc.edu/",
-      "manifestUrl": "https://library.bc.edu/iiif/manifests/MS1996_097_87233.json",
-      "imageInfoUrl": "https://iiif.bc.edu/iiif/2/MS1996_097_87233_0145.jp2/info.json"
+      "id": "palimpsest-stmarytx-edu",
+      "name": "Jubilees Palimpsest Project",
+      "homepage": "https://palimpsest.stmarytx.edu/",
+      "manifestUrl": "https://palimpsest.stmarytx.edu/iiifp/KB_10-323-S-30/manifest.json",
+      "imageInfoUrl": "https://palimpsest.stmarytx.edu/iiif/KB_10-323-S-30_backcover_Ac_55.jp2/info.json"
+    },
+    {
+      "id": "iiif-ub-uni-leipzig-de",
+      "name": "Leipzig University Library",
+      "homepage": "https://iiif.ub.uni-leipzig.de/",
+      "manifestUrl": "https://iiif.ub.uni-leipzig.de/0000055260/manifest.json",
+      "imageInfoUrl": "https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055260/00000205.jpx/info.json"
     },
     {
       "id": "mdz-nbn-resolving-de",
       "name": "mdz-nbn-resolving.de",
       "homepage": "https://mdz-nbn-resolving.de/",
       "manifestUrl": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00132707-7"
+    },
+    {
+      "id": "digibib-mozarteum-at",
+      "name": "Mozarteum",
+      "homepage": "https://digibib.mozarteum.at/",
+      "manifestUrl": "https://digibib.mozarteum.at/i3f/v20/2296663/manifest",
+      "imageInfoUrl": "https://digibib.mozarteum.at/i3f/v20/2536006/info.json"
+    },
+    {
+      "id": "nl-scotland",
+      "name": "National Library of Scotland",
+      "homepage": "https://view.nls.uk/",
+      "manifestUrl": "https://view.nls.uk/manifest/1041/8501/104185012/manifest.json",
+      "imageInfoUrl": "https://dg-view.nls.uk/iiif/2/1085%2F0946%2F108509469.5/info.json"
     },
     {
       "id": "noah-nrw",
@@ -197,44 +224,17 @@
       "imageInfoUrl": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/10510578/info.json"
     },
     {
-      "id": "www-e-manuscripta-ch",
-      "name": "www.e-manuscripta.ch",
-      "homepage": "https://www.e-manuscripta.ch/",
-      "manifestUrl": "https://www.e-manuscripta.ch/i3f/v20/4669156/manifest",
-      "imageInfoUrl": "https://www.e-manuscripta.ch/i3f/v20/4669181/info.json"
-    },
-    {
       "id": "scta-info",
       "name": "Sentences Commentary Text Archive",
       "homepage": "https://scta.info/",
       "manifestUrl": "https://scta.info/iiif/ddbrugescommentary/erfurt131/manifest"
     },
     {
-      "id": "digital-library-villanova-edu",
-      "name": "Digital Library @ Villanova University",
-      "homepage": "https://digital.library.villanova.edu/",
-      "manifestUrl": "https://digital.library.villanova.edu/Item/vudl:428064/Manifest"
-    },
-    {
-      "id": "iiif-wellcomecollection-org",
-      "name": "Wellcome Library",
-      "homepage": "https://iiif.wellcomecollection.org/",
-      "manifestUrl": "https://iiif.wellcomecollection.org/presentation/v2/b20631479",
-      "imageInfoUrl": "https://iiif.wellcomecollection.org/thumbs/b20631479_galton_2_9_6_3_2_0105.JP2/info.json"
-    },
-    {
-      "id": "iiif-durham-ac-uk",
-      "name": "Durham University IIIF Collections",
-      "homepage": "https://iiif.durham.ac.uk/",
-      "manifestUrl": "https://iiif.durham.ac.uk/manifests/trifle/32150/t2/mh/t2/t2mht24wj809/manifest",
-      "imageInfoUrl": "https://iiif.durham.ac.uk/iiif/trifle/32150/t2/mh/t2/t2mht24wj809/ba52d998fd922600ac0372a79b51dae7.jp2/info.json"
-    },
-    {
-      "id": "nl-scotland",
-      "name": "National Library of Scotland",
-      "homepage": "https://view.nls.uk/",
-      "manifestUrl": "https://view.nls.uk/manifest/1041/8501/104185012/manifest.json",
-      "imageInfoUrl": "https://dg-view.nls.uk/iiif/2/1085%2F0946%2F108509469.5/info.json"
+      "id": "iiif-slub-dresden-de",
+      "name": "SLUB Dresden",
+      "homepage": "https://iiif.slub-dresden.de/",
+      "manifestUrl": "https://iiif.slub-dresden.de/iiif/2/383789257/manifest.json",
+      "imageInfoUrl": "https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2Fmozaidom_383789257%2Fmozaidom_383789257_tif%2Fjpegs%2F00000003.tif.medium.jpg/info.json"
     },
     {
       "id": "textgridlab-org",
@@ -244,25 +244,25 @@
       "imageInfoUrl": "https://textgridlab.org/1.0/digilib/rest/IIIF/textgrid:4111m.0/info.json"
     },
     {
-      "id": "iiif-hab-de",
-      "name": "Herzog August Bibliothek - The Polonsky Foundation Oxford-Wolfenbüttel German Manuscripts Digitization Project (2018-20…",
-      "homepage": "https://iiif.hab.de/",
-      "manifestUrl": "https://iiif.hab.de/object/varia_karten_k-16-3/manifest.json",
-      "imageInfoUrl": "https://iiif.hab.de/object/varia_karten_k-16-3/image/image_k-16-3/info.json"
+      "id": "bodleian-libraries",
+      "name": "The Bodleian Libraries",
+      "homepage": "https://digital.bodleian.ox.ac.uk/",
+      "manifestUrl": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/ae9f6cca-ae5c-4149-8fe4-95e6eca1f73c.json",
+      "imageInfoUrl": "https://iiif.bodleian.ox.ac.uk/iiif/image/ecaa1a4f-13a8-4960-8b78-cf837bc10b11/info.json"
     },
     {
-      "id": "palimpsest-stmarytx-edu",
-      "name": "Jubilees Palimpsest Project",
-      "homepage": "https://palimpsest.stmarytx.edu/",
-      "manifestUrl": "https://palimpsest.stmarytx.edu/iiifp/KB_10-323-S-30/manifest.json",
-      "imageInfoUrl": "https://palimpsest.stmarytx.edu/iiif/KB_10-323-S-30_backcover_Ac_55.jp2/info.json"
+      "id": "api-bl-uk",
+      "name": "The British Library (Digirati)",
+      "homepage": "https://api.bl.uk/",
+      "manifestUrl": "https://bl.digirati.io/iiif/ark:/81055/vdc_100109683288.0x000001",
+      "imageInfoUrl": "https://bl.digirati.io/thumbs/v3/ark:/81055/vdc_100109683290.0x000002/info.json"
     },
     {
-      "id": "iiif-ub-uni-leipzig-de",
-      "name": "Leipzig University Library",
-      "homepage": "https://iiif.ub.uni-leipzig.de/",
-      "manifestUrl": "https://iiif.ub.uni-leipzig.de/0000055260/manifest.json",
-      "imageInfoUrl": "https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055260/00000205.jpx/info.json"
+      "id": "collections-thulb-uni-jena-de",
+      "name": "Universitaet Jena",
+      "homepage": "https://collections.thulb.uni-jena.de/",
+      "manifestUrl": "https://collections.thulb.uni-jena.de/api/iiif/presentation/v2/HisBest_derivate_00030599/manifest",
+      "imageInfoUrl": "https://collections.thulb.uni-jena.de/api/iiif/image/v2/HisBest_derivate_00030599%2FMS_Conc_Acad_2_0001.tif/info.json"
     },
     {
       "id": "unibe-ch",
@@ -272,23 +272,25 @@
       "imageInfoUrl": "https://iiif.ub.unibe.ch/image/v3.0/cffa1382-3fb8-407c-8f07-9dea91ee2b02/info.json"
     },
     {
-      "id": "digivatlib-it",
-      "name": "DigiVatLib Vatican Library",
-      "homepage": "https://digi.vatlib.it/",
-      "manifestUrl": "https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/manifest.json",
-      "imageInfoUrl": "https://digi.vatlib.it/iiifimage/MSS_Vat.lat.3225/Vat.lat.3225_0001_cr_0002r.%5B02.fn.0000%5D.jp2/info.json"
-    }, {
+      "id": "iiif-wellcomecollection-org",
+      "name": "Wellcome Library",
+      "homepage": "https://iiif.wellcomecollection.org/",
+      "manifestUrl": "https://iiif.wellcomecollection.org/presentation/v2/b20631479",
+      "imageInfoUrl": "https://iiif.wellcomecollection.org/thumbs/b20631479_galton_2_9_6_3_2_0105.JP2/info.json"
+    },
+    {
+      "id": "www-e-manuscripta-ch",
+      "name": "www.e-manuscripta.ch",
+      "homepage": "https://www.e-manuscripta.ch/",
+      "manifestUrl": "https://www.e-manuscripta.ch/i3f/v20/4669156/manifest",
+      "imageInfoUrl": "https://www.e-manuscripta.ch/i3f/v20/4669181/info.json"
+    },
+    {
       "id": "yale-collections",
       "name": "Yale Digital Collections",
       "homepage": "https://collections.library.yale.edu",
       "manifestUrl": "https://collections.library.yale.edu/manifests/32307332",
       "imageInfoUrl": "https://collections.library.yale.edu/iiif/2/32307333/info.json"
-    }, {
-      "id": "brown-university",
-      "name": "Brown University Library",
-      "homepage": "https://lib.brown.edu",
-      "manifestUrl": "https://repository.library.brown.edu/iiif/presentation/bdr:425417/manifest.json",
-      "imageInfoUrl": "https://repository.library.brown.edu/iiif/image/bdr:925232/info.json"
     }
   ]
 }
