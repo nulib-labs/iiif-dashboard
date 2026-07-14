@@ -1,0 +1,30 @@
+name: Validate and test
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+      - uses: jorelali/setup-elm@v6
+        with:
+          elm-version: 0.19.1
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+      - run: yarn install --frozen-lockfile
+      - run: make validate
+      - run: make test
+      - run: make build

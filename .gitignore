@@ -1,0 +1,8 @@
+node_modules/
+elm-stuff/
+.elm-home/
+.go-cache/
+dist/
+.DS_Store
+*.log
+.idea

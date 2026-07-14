@@ -1,0 +1,23 @@
+{
+  "name": "iiif-service-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "make serve",
+    "build": "make build",
+    "test": "yarn test:elm && yarn test:go",
+    "test:elm": "elm-test-rs",
+    "test:go": "go test ./...",
+    "validate:data": "node scripts/validate-projects.js",
+    "check:services": "go run ./cmd/iiif-checker",
+    "preview": "make serve"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.11.13",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "elm-test-rs": "^3.0.1-0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/iiif-dashboard/projects.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "projects"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "projects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "homepage"],
+        "anyOf": [
+          { "required": ["manifestUrl"] },
+          { "required": ["imageInfoUrl"] }
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 2, "maxLength": 120 },
+          "homepage": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "manifestUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "imageInfoUrl": { "type": "string", "format": "uri", "pattern": "^https://.+/info\\.json(?:[?#].*)?$" }
+        }
+      }
+    }
+  }
+}
